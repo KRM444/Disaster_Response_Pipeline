@@ -157,8 +157,8 @@ Lastly, the file structure of the project:
 ```
 - 📂app
 | - template
-| |- master.html              # main page of web app
-| |- go.html                  # classification result page of web app
+    | |- master.html          # main page of web app
+    | |- go.html              # classification result page of web app
 |- run.py                     # Flask file that runs app
 
 - 📂data 
@@ -175,7 +175,7 @@ Lastly, the file structure of the project:
 ```
 
 To access the Flask web app:
-1. Open the terminal and navigate to the 📂Project folder
+1. Open the terminal and navigate to the 📂Project folder (**⚠️Make sure to unzip classifier.pkl**).
     - **Enter:** python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/processed_data.db
     - **Enter:** python models/train_classifier.py data/processed_data.db models/classifier.pkl
 
@@ -190,7 +190,6 @@ To access the Flask web app:
 
 #### Sample:
 https://user-images.githubusercontent.com/35614192/208192912-f3c64138-71f3-4f6e-9b66-e6e8b2247af5.mov
-
 
 
 ## Closing Remarks:
